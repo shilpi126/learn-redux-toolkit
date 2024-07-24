@@ -1,0 +1,55 @@
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.count{
+    margin-top: 5rem;
+    border: 1px solid gray;
+    width: 25rem;
+    height: 20rem;
+    border-radius: 5px;
+    padding: 2rem;
+    background-color:black;
+    box-shadow: 5px 10px 8px #565353;
+    
+}
+
+
+.count p{
+    color: white;
+}
+
+.counter{
+    font-size:xxx-large;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.btn button{
+    margin: 15px;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(245, 148, 3);
+   
+    color:  white;
+}
+
+.toggle{
+    margin:10px;
+
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: rgb(245, 148, 3);
+    color:  rgb(252, 247, 247);
+    border: 1px solid rgb(97, 96, 96);
+}
+
