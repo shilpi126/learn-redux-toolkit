@@ -1,0 +1,50 @@
+.form-container{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.form-container form{
+    width: 25rem;
+    height: 10rem;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+
+.form-container form input{
+    width: 100%;
+
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 1.7rem;
+
+
+}
+
+
+.form-container form button{
+    width: 8rem;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 2rem;
+    color: white;
+    background-color: chocolate;
+    
+
+}
+
+
+
+
