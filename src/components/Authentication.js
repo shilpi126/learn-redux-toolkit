@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import "./Authentication.css"
 import { useDispatch, useSelector } from 'react-redux'
-import { authAction } from '../store'
+import { authAction } from '../store/AuthSlice'
+
+
 const Authentication = () => {
     const auth = useSelector((state) => state.auth) 
     const dispatch = useDispatch();

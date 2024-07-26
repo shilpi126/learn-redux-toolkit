@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Counter.css"
 import { useDispatch, useSelector } from 'react-redux'
-import { counterActions } from '../store'
+import { counterActions } from '../store/CounterSlice'
 
 
 
